@@ -1,0 +1,17 @@
+{
+  "name": "base-vuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "blog:dev": "vuepress dev blog",
+    "origin_blog:dev": "vuepress dev origin_blog",
+    "blog:build": "vuepress build blog"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
