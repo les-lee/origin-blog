@@ -85,6 +85,8 @@ console.log(myObject.test) // error: cant not redefine.....
 
 我们再来试一下，先修改configurable 再动 writable。
 
+<!-- more -->
+
 ```js
 Object.defineProperty(myObject, 'test', {
   configurable: false,

@@ -1,4 +1,5 @@
 module.exports = {
+  // theme: require('./theme/layouts/Layout.vue'),
   title: '恭喜恭喜',
   description: '对技术以及生活的一些看法',
   head: [

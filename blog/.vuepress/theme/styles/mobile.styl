@@ -40,14 +40,12 @@ $mobileSidebarWidth = $sidebarWidth * 0.82
 // 这里是 page 的不是 mobile 的
 @media screen and (max-width: 1300px)
   .sidebar-open .content
-    transition all
     margin-left 20rem !important
   .sidebar
     transform translateX(-100%)
 
 @media screen and (max-width: 900px)
-  .sidebar-open .content
-    transition all
+  .content
     margin auto !important
   .sidebar
     transform translateX(-100%)

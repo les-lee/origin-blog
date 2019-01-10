@@ -1,17 +1,13 @@
 {
   "name": "base-vuepress",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "blog:dev": "vuepress dev blog",
-    "origin_blog:dev": "vuepress dev origin_blog",
-    "blog:build": "vuepress build blog"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
+  "author": "les <13169840505@163.com>",
+  "license": "MIT",
   "devDependencies": {
-    "vuepress": "^0.14.8"
+    "vuepress": "^1.0.0-alpha.30"
+  },
+  "scripts": {
+    "blog:dev": "vuepress dev blog"
   }
 }
