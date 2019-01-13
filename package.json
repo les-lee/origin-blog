@@ -9,5 +9,8 @@
   },
   "scripts": {
     "blog:dev": "vuepress dev blog"
+  },
+  "dependencies": {
+    "vuepress-theme-yubisaki": "^3.1.0"
   }
 }

@@ -1,8 +1,19 @@
+---
+lang: zh
+tag: 
+  - les
+# home: true
+editLink: true
+
+---
+
 # 注释之前的内容
 
 ## 第二个注释之前的内容
 
 对技术和生活的一些看法
+
+<!-- more -->
 
 - [go to segmentFault](https://segmentfault.com/blog/les-lee)
 
@@ -17,7 +28,3 @@
   
 })()
 ```
-
-::: slot footer
-Here's some contact info
-:::
