@@ -1,3 +1,6 @@
+---
+sidebar: auto
+---
 # 全方位的,零死角的,分析tapable源码
 
 上一遍博文中,我们谈到了tapable的用法,现在我们来深入一下tap究竟是怎么运行的, 怎么处理,控制 tap 进去的钩子函数,拦截器又是怎么运行的.
@@ -77,7 +80,7 @@ constructor(args) {
 }
 ```
 
-## 第二部 `.tap()`
+## 第二步 `.tap()`
 
 现在我们来看看调用了tap() 方法后发生了什么
 
@@ -310,7 +313,7 @@ constructor(config) {
 }
 ```
 
-现在可以来看一下setup了
+## 现在可以来看一下setup了
 
 ```js
 setup(instance, options) {
@@ -400,7 +403,7 @@ create(options) {
 
 **注意**,这上面有关于 fn这个变量的函数,返回的都是字符串,不是函数不是方法,是返回可以转化成代码执行的字符串,思维要转变过来.
 
-现在我们来看看header()
+## 现在我们来看看header()
 
 ```js
 header() {
@@ -537,7 +540,7 @@ callTapsSeries({ onError, onResult, onDone, rethrowIfPossible }) {
 }
 ```
 
-参数搞明白了,现在,我们可以进入`callTap()` 了.
+## 参数搞明白了,现在,我们可以进入`callTap()` 了
 
 `callTap`挺长的,因为他也分了3种类型分别处理,想create()一样.
 
@@ -777,7 +780,6 @@ onDone:!onResult && (() => {return done();})
 
 好,现在带着这些变化去看`this.capTap()`,你就能推出现在这个 call 函数会变成这样.
 
-
 ```js
 "use strict";
 function (options) {
@@ -828,5 +830,6 @@ function (options) {
 
 那个,写得有些随性,可能会让你们觉得模糊,但是...我写作新手,尽力了,不懂就在那个评论区问我.我看到会回复的.共勉.
 
-**后记**:
+## 后记
+
 本来以为会很难,但是越往下深入的时候发现,大神之所以成为大神,不是他的代码写得牛,是他的思维牛,没有看不懂的代码,只有跟不上的思路,要看懂他如何把call 函数组织出来不难,难的是,他居然能想到这样来生成函数,还可以考虑到,拦截器钩子,和`context` 属性,以及他的 `onResult` `onDone` 回调的判断,架构的设计,等等,一步接一步.先膜拜吧...

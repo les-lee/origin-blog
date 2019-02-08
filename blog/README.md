@@ -4,27 +4,11 @@ tag:
   - les
 # home: true
 editLink: true
-
+showPage: false
+layout: MyHome
+typerlist:
+  - I'm a front end developer
+  - and my idol is Mr. Leslie Cheung.
+  - Try to known me from click the button in bottom
+sidebar: false
 ---
-
-# 注释之前的内容
-
-## 第二个注释之前的内容
-
-对技术和生活的一些看法
-
-<!-- more -->
-
-- [go to segmentFault](https://segmentfault.com/blog/les-lee)
-
-- [go to github](https://github.com/les-lee)
-
-- [go to 掘金](https://juejin.im/user/5b15d5265188251360238c35/posts)
-
-```js
-(function () {
-
-  code_for_wrold();
-  
-})()
-```
