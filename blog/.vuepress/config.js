@@ -27,6 +27,7 @@ module.exports = {
         text: "文章",
         items: [
           { text: "js", link: "/js/" },
+          { text: "css", link: "/css/" }, 
           { text: "webpack", link: "/webpack/" },
           { text: "翻译", link: "/translate/" }
         ]
@@ -45,6 +46,10 @@ module.exports = {
     // sidebar: 'auto'
     sidebar: {
       "/js/": ["jsobj_advanced", "bitmarks"],
+
+      "/css/": [
+        "scroll_snap"
+      ],
 
       "/webpack/": [
         // '',

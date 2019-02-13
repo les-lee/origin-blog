@@ -1,5 +1,7 @@
 # webpack 作者的 webpack 教程(3)
 
+[原文][13] (撞墙警告)
+
 这是第三篇,也是目前为止的最后一篇了.
 
 ## 概括
@@ -70,3 +72,4 @@
 [10]: /webpackguide/parser.png
 [11]: https://github.com/webpack/webpack/blob/c71fd05f98a752753b9450f590c970b76379803d/lib/Compilation.js#L180-L205
 [12]: /webpackguide/all.png
+[13]: https://medium.com/webpack/the-contributors-guide-to-webpack-part-3-44cc149af02c
