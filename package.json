@@ -8,7 +8,8 @@
     "vuepress": "^1.0.0-alpha.30"
   },
   "scripts": {
-    "blog:dev": "vuepress dev blog"
+    "blog:dev": "vuepress dev blog",
+    "blog:build": "vuepress build blog"
   },
   "dependencies": {
     "cac": "^6.4.2",

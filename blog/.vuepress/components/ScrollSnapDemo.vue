@@ -45,9 +45,9 @@ export default {
     var textareaCSS = this.$refs.playableCss;
     var reset = this.$refs.reset;
     var htmlCode = textareaHTML.value;
-    var cssCode = textareaCSS.value;
+    var cssCode = null;
     // textareaHTML.innerHTML = section.innerHTML;
-    editable.innerHTML = textareaCSS.value = `
+    editable.innerHTML = cssCode = textareaCSS.value = `
       .scroller {
         height: 300px;
         overflow-y: scroll;

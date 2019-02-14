@@ -1,6 +1,6 @@
 // var utils = require('../../utils')
 // var sidebarConfig = utils.build_sidebar_sync()
-var sidebarConfig = import("./sidebar_config.js");
+// var sidebarConfig = require("./sidebar_config.js");
 module.exports = {
   theme: "vuepress-theme-les",
   title: "Les Lee’s 空间",
