@@ -3,7 +3,7 @@ set -e
 
 git init
 git add -A
-git commit -m 'modyfy by les'
+git commit -m 'modify by les'
 
 git push origin master
 
